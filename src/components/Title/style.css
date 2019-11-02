@@ -7,13 +7,20 @@
   margin-bottom: 50px;
 }
 
-#logo{
+.logo{
   
   font-size: 60px;
+  text-align: center;
 
 }
 
 .navbar{
-
  background-color: #eceff1;
+}
+
+h1 {
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
